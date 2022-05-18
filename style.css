@@ -17,7 +17,7 @@ body{
 
     background-image: url(image/city-night-tokyo-city-lights-wallpaper-preview.jpg);
     
-    background-size: 1440px 650px;
+    background-size: 100% 650px;
     background-repeat: no-repeat;
 }
 
@@ -1364,6 +1364,10 @@ hr{
         max-height: 60px;
         padding: 0 6%;
         width: 440px;
+    }
+
+    body{
+        background-size: 200% 650px;
     }
 
     .header-add{
