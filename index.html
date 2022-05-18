@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assigamé</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="header-main">
+
+            <div class="header-left">
+                <img id="logo" src="icone/logo.png" alt="">
+            </div>
+
+            <div class="header-right">
+
+                <div class="header-right-center">
+                    <a href="#"><img src="icone/Doorbell.png" alt=" Doorbell"></a>
+
+                    <a href="#">Mes recherches</a>
+                </div>
+
+                <div class="header-right-center">
+                    <a href="#"><img src="icone/Favorite.png" alt="Favoris"></a>
+
+                    <a href="#">Favoris</a>
+                </div>
+
+                <div class="header-right-center">
+                    <a href="#"><img src="icone/Messages.png" alt="Message"></a>
+
+                    <a href="#">Messages</a>
+                </div>
+
+                <div class="header-right-center header-dernier-div">
+                    <a href="#"><img src="icone/User.png" alt="User"></a>
+
+                    <a href="#">Se connecter</a>
+                </div>
+
+                <div class="header-add">
+
+                    <a class="icone-add" href="#"><img src="icone/Add.png" alt="Ajouter"></a>
+
+                    <a class="add" href="#">Déposer une annonce</a>
+
+                </div>
+
+            </div>
+        </div>
+        
+    </header>
+
+    <section>
+        <h1> 
+            VENDEZ ET ACHETEZ PRES DE CHEZ VOUS
+        </h1>
+
+        <div class="rien"></div>
+
+        <div class="container-section-un">
+            <div class="div-forulaire">
+                <div class="div-formulaire_ODF div-formulaire_O">
+
+                    <span class="span-label">
+                        <input name="ch" class="class-input" type="radio" id="moment">
+                        <label class="label-un" for="moment">
+                            
+                        </label>
+
+                    </span>Offres
+                </div>
+
+
+                <div class="div-formulaire_ODF">
+
+                    <span class="span-label">
+                        <input name="ch" class="class-input" type="radio" id="moment2">
+                        <label class="label-un" for="moment2">
+                        </label>
+
+                    </span>Demandes
+                </div>
+
+                <div class="div-formulaire_ODF">
+
+                    <span class="span-label">
+                        <input name="ch" class="class-input" type="radio" id="moment3">
+                        <label class="label-un" for="moment3">
+                        </label>
+
+                    </span> <span id="faire-un-don">Faire un don</span>
+                </div>
+
+            </div>
+
+            <!-- deuxieme partie de la premiere section -->
+
+            <div class="container-section-deux">
+
+            <!-- <form action="" method="post"> -->
+
+                <div class="container-categorie">
+                    <div class="box-un">
+                        <select class="select-categories" name="nom">
+                            <option value="1">Categories</option>
+                            <option value="2">Vacances</option>
+                            <option value="3">Vetements</option>
+                            <option value="4">Offres d'emplois</option>
+                            <option value="5">Ventes immo</option>
+                            <option value="6">Voitures</option>
+                        </select>
+                    </div>
+
+                    <img id="bulleted" src="icone/Bulleted-List.png" alt="">
+                </div>
+
+
+
+                <div class="box-deux"></div>
+
+                <div class="search-bar">
+                    <form class="example" action="/action_page.php">
+                        <input type="text" placeholder="Que recherchez-vous ?" name="search">
+                        <button type="submit"><i class="fa fa-search"></i></button>
+                    </form>
+                </div>
+
+                <div class="place-marker">
+                    <form class="example" action="/action_page.php">
+                        <input type="text" placeholder="Saisissez une ville et un rayon" name="search">
+                        <button type="submit"><img src="icone/Place-Marker.png" alt=""></button>
+                    </form>
+                </div>
+
+            </div>
+
+            
+            <!--  Troisieme partie de la premiere section-->
+
+            <div class="bouton-prix">
+                <a href="#">Prix</a>
+            </div>
+
+            
+
+            <!--  4em partie de la premiere section-->
+
+            <div class="conteneur-bouton-on-off">
+                <!-- <div class="bouton-on_off">
+                    <div class="bouton-on_off_milieu">X</div>
+                </div> -->
+
+                <div class="bouton-on_off">
+
+                    <label class="switch">
+                        <input type="checkbox">
+                        <span class="slider"></span>
+                    </label>
+            
+                </div>
+
+                <div class="voir-egalement">
+
+                    <div >Voir également les annonces disponibles en livraison</div>
+    
+                    <div ><img src="icone/Help.png" alt="Aide"></div>
+
+                </div>
+                
+            </div>
+
+            <!--  5em partie de la premiere section-->
+
+            <div class="conteneur-bouton_recherche">
+                <a href="#">Rechercher (17 000résultats)</a> 
+            </div>
+
+            <!-- fin de la premiere section -->
+        </div>
+
+    </section>
+
+    <!-- Deuxieme section -->
+
+    <section class="section_deux">
+
+        <div class="container-section_deux">
+
+            <h2 class="titre-categories">
+                Top Categorie
+            </h2>
+
+            <div class="ul-top-categorie main-carousel">
+                <div class="li">
+                    <a class="a" href="#">
+                        <span><img src="image/Rectangle-34.png" alt=""></span>
+
+                        <div class="text-top-categorie">Vacances</div>
+                    </a>
+                </div>
+
+                <div class="li">
+                    <a class="a" href="#">
+                        <span><img src="image/Rectangle-36.png" alt=""></span>
+
+                        <div class="text-top-categorie">Vetements</div>
+                    </a>
+                </div>
+
+                <div class="li">
+                    <a class="a" href="#">
+                        <span><img src="image/Rectangle-37.png" alt=""></span>
+
+                        <div class="text-top-categorie">Offres d'emplois</div>
+                    </a>
+                </div>
+
+                <div class="li">
+                    <a class="a" href="#">
+                        <span><img src="image/Rectangle-38.png" alt=""></span>
+
+                        <div class="text-top-categorie">Ventes immo</div>
+                    </a>
+                </div>
+
+                <div class="li">
+                    <a class="a" href="#">
+                        <span><img src="image/Rectangle-43.png" alt=""></span>
+
+                        <div class="text-top-categorie">Voitures</div>
+                    </a>
+                </div>
+
+                <div class="li">
+                    <a class="a" href="#">
+                        <span><img src="image/Rectangle-92.png" alt=""></span>
+
+                        <div class="text-top-categorie">Ammeublement</div>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="container-texte-passionner">
+
+            <div class="titre-rejoindre-communaute">Rejoignez notre <span
+                    class="titre-bleu-rejoindre-communaute">communauté</span> de <span
+                    class="titre-bleu-rejoindre-communaute">passionner</span>
+            </div>
+
+
+            <div class="container-communaute">
+                <img class="image-communaute" src="image/Rectangle-50.png" alt="">
+
+                <div class="rectangle-blanc">
+
+                    <span class="rectangle-blanc_container-text">
+
+                        <span class="rectangle-blanc-bold"> Avoir une passion céest bien ! <br>
+                            La partager avec les autres, c’est mieux ! <br></span>
+                        Jardinage, mode, vélo... Ils sont nombreux à en parler sur
+                        la communauté Assigamé ! Rejoingnez-les !
+
+                    </span>
+
+                    <div id="Déposer-une-annonce">
+                        <a class="add" href="#">Déposer une annonce</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="text-avec_assigame">
+            Avec Assigamé, trouvez la bonne affaire sur le site référent de petites annonces de particulier à
+            particulier et de professionnels. Avec des milliers de petites annonces, trouvez la bonne occasion dans nos
+            catégories voiture, immobilier, emploi, location de vacances, vêtements, meubles, bricolage, téléphonie,
+            jeux vidéo, etc… Déposez une annonce gratuite en toute simplicité pour vendre, rechercher, donner vos biens
+            de seconde main ou promouvoir vos services. Achetez en toute sécurité avec notre système de paiement en
+            ligne et de livraison pour les annonces éligibles.
+        </div>
+
+    </section>
+
+    <!-- troisieme section -->
+
+    <section class="section-trois">
+
+        <div class="container-section_trois ">
+
+
+            <h2 id="avis">avis</h2>
+
+
+            <div class="bouton-donner-avis">
+
+                <a class="icone-add" href="#"><img src="icone/Pencil.png" alt="Ajouter"></a>
+
+                <a class="add" href="#">Donnez votre avis</a>
+
+            </div>
+
+            <span class="text-avis-pertinant">
+                Les plus pertinants
+            </span>
+
+            <!-- les commentaires -->
+
+            <div id="container-bock-bul_commentaire">
+
+                <div class="grand-bock-bul_commentaire">
+                    <div class="bock-bul_commentaire">
+                        <img src="image/Ellipse-5.png" alt="">
+
+                        <div class="nom-bul">
+                            <div class="nom">Allia BOF</div>
+
+                            <div class="bul"></div>
+
+                            <div class="bul-commentaire">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
+                                eu Curabitur vel bibendum lorem. Morbi convallis diam sit amet lacinia. </div>
+                        </div>
+                    </div>
+
+                    <div class="bock-bul_commentaire">
+                        <img src="image/Ellipse-6.png" alt="">
+
+                        <div class="nom-bul">
+                            <div class="nom">FALE</div>
+
+                            <div class="bul-deux"></div>
+
+                            <div class="bul-commentaire-deux">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Etiam eu Curabitur
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="bock-bul_commentaire">
+                        <img src="image/Ellipse-7.png" alt="">
+
+                        <div class="nom-bul">
+                            <div class="nom">Allia BOF</div>
+
+                            <div class="bul-trois"></div>
+
+                            <div class="bul-commentaire-trois">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Etiam eu Curabitur vel bibendum lorem. Morbi convallis
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div id="img-avis">
+                    <img class="image-avis" src="image/illu-avis-1.png" alt="">
+                </div>
+            </div>
+
+            <div id="lire-avis">
+                <a id="lien-avis" href="#">LIRE TOUS LES AVIS</a>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- 4em section -->
+
+    <section>
+
+        <div class="contenaire-nos_partenaires">
+
+            <h2 class="title-nos-partenaires">Nos partenaires</h2>
+
+            <div class="logo-partenaires">
+
+                <a id="logo-cercle_or" href="#"> <img class="img-partenaire" src="image/cropped-logo-bbb-removebg-preview-1.png"
+                        alt="cercle d'or"> </a>
+
+                <a class="image-Gozem" href="#"> <img class="img-partenaire" src="image/sigle_logo-1.png" alt=""> </a>
+
+                <a class="none Togocom" href="#"> <img class="img-partenaire" src="image/logo-1.png" alt=""> </a>
+
+                <a class="none" id="logo-ecobank" href="#"> <img class="img-partenaire" src="image/1200px-Ecobank_Logo-1.png" alt=""> </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!--       5em section       -->
+
+    <section>
+
+        <div class="container-localisation">
+
+            <h2 id="title-localisation">Localisation</h2>
+
+            <div class="carte-maps">
+                <iframe class="carte-maps"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d91760.02644272853!2d1.1974079554405823!3d6.178398808109722!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1023e1c113185419%3A0x3224b5422caf411d!2zTG9tw6k!5e0!3m2!1sfr!2stg!4v1652056429274!5m2!1sfr!2stg"
+                    width="1000" height="430" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!--         6em sectiion         -->
+
+    <section>
+
+        <div class="container-contactez-nous">
+
+            <h2 class="contactez-nous-title_un">Une question ? un conseil ?
+            </h2>
+
+            <div class="contactez-nous-title_deux">
+                Contactez-nous
+            </div>
+
+            <!-- formulaire -->
+
+            <form class="container-formulaire" action="traitement.php" method="post">
+
+                <div class="form-nom_mail">
+                    <div class="field">
+                        <label for="text" class="field-label"> </label>
+
+                        <input type="text" name="text" id="text" placeholder="Entrer votre nom..." class="field-input">
+                    </div>
+
+                    <div class="field">
+                        <label for="text" class="field-label"> </label>
+                        <input type="text" name="text" id="text-deux" placeholder="Entrer votre email..." class="field-input">
+                    </div>
+
+                </div>
+
+                <div class="field-trois">
+                    <label for="text" class="field-label"></label>
+
+                    <input type="text" name="text" id="text-trois" placeholder="Ecrire votre message" class="field-input">
+                </div>
+
+            </form>
+
+            <div class="bouton-envoyer">
+                <a class="add" href="#">Envoyer</a>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!--          7em section            -->
+
+    <div id="section-sept">
+
+        <div class="bloc-footer">
+
+            <div class="bloc-footer_global-un">
+
+                <div class="bloc-footer_un bloc-footer_un_trois_quatre">
+
+                    <div class="bloc-footer_un_un"> <span class="title-footer">À PROPOS DE ASSIGAMÉ</span>
+                        <hr> <br>
+                        <a href="#">Qui sommes-nous ?</a> <br>
+                        <a href="#">Nous rejoindre</a>
+                    </div>
+
+                    <div class="bloc-footer_un_deux">
+
+                        <div id="footer-nos_sponsor">
+                            NOS SPONSORS
+                        </div>
+                        <hr>
+
+                        <div id="footer-logo">
+
+                            <div>
+                                <img src="image/Component-1.png" alt="">
+                            </div>
+
+                            <div class="footer-ecobank">
+                                <img src="image/ecobank-removebg-preview-1.png" alt="">
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+
+                <!--               deuxieme bloc dans footer     -->
+
+                <div class="bloc-footer_deux ">
+
+                    <span class="title-footer">
+
+                        INFORMATIONS LÉGALES
+                    </span>
+
+                    <hr> <br>
+
+                    <span class="bloc-footer_deux_detail">
+                        <a href="#">Conditions générales d’utilisation</a> <br> <br>
+                        <a href="#">Règles de diffusion, de référencement et <br>
+                            de déréférencement</a> <br> <br>
+                        <a href="#">Conditions générales de vente</a> <br>
+                        <a href="#">Vie privée / cookies</a> <br> <br>
+                        <a href="#"> Vos droits et obligations</a> <br>
+                        <a href="#">Critères de classement</a> <br>
+                        <a href="#">Décisions de justice</a>
+                    </span>
+
+                </div>
+
+                <!--   3em block dans footer     -->
+
+                <div class="bloc-footer_trois bloc-footer_un_trois_quatre">
+                    <span class="title-footer">NOS SOLUTIONS PROS</span>
+                    <hr> <br>
+
+                    <!-- ici j'ai utiliser la class bloc-footer_deux_detail -->
+
+                    <span class="bloc-footer_deux_detail">
+
+                        <a href="#">Publicité</a> <br> <br>
+                        <a href="#">Professionnels de l’immobilier</a> <br> <br>
+                        <a href="#">Vos recrutements</a> <br>
+                        <a href="#">Professionnels de l’auto</a> <br> <br>
+                        <a href="#">Professionnels du tourisme</a> <br>
+                        <a href="#">Autres solutions professionnelles</a> <br> <br>
+                        <a href="#">Annuaire des professionnels</a> <br>
+                        <a href="#">Dépôt gratuit d’emploi pour les TPE</a>
+
+                    </span>
+
+                </div>
+
+                <!--   4em block dans footer     -->
+
+                <div class="bloc-footer_quatre bloc-footer_un_trois_quatre">
+
+                    <span class="title-footer">
+                        DES QUESTIONS ?
+                    </span>
+
+                    <hr> <br>
+                    
+                    <span class="bloc-footer_deux_detail">
+                        <a href="#"> Aide</a> <br> <br>
+                        <a href="#">Le service de paiement sécurisé et <br> la livraison</a> <br> <br>
+                        <a href="#"> Le service de réservation de <br> vacances en ligne pour les hôtes</a> <br> <br>
+                        <a href="#">Votre dossier de location en ligne</a> <br> <br>
+                        <a href="#">Demandez conseil à la <br> Communauté</a>
+                    </span>
+                </div>
+            </div>
+            <hr class="dernier-hr">
+
+            <!-- 2em partie footer global -->
+
+            <div class="bloc-footer_global-deux">
+
+                <div class="bloc-footer_global-deux_un">
+                    Assigamé 29 Avril 2022 à nos jour
+                </div>
+
+                <div class="bloc-footer_global-deux_deux">
+                    <div class="Retrouvez-nous-sur">Retrouvez-nous sur</div>
+
+                    <div> <a href="#"><img src="icone/Facebook.png" alt=""></a></div>
+
+                    <div> <a href="#"><img src="icone/Twitter-Squared.png" alt=""></a></div>
+
+                    <div> <a href="#"><img src="icone/Instagram-Circle.png" alt=""></a></div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!--             j script                 -->
+
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+
+    <script>
+        $('.main-carousel').flickity({
+            // options
+            cellAlign: 'left',
+            wrapAround: true,
+            freeScroll: true
+        });
+    </script>
+
+
+
+</body>
+
+</html>

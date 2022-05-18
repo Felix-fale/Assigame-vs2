@@ -1,0 +1,1721 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    list-style-type: none;
+}
+
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #FAFAFA;
+    font-family: 'Open Sans', sans-serif;
+
+    background-image: url(image/city-night-tokyo-city-lights-wallpaper-preview.jpg);
+    
+    background-size: 1440px 650px;
+    background-repeat: no-repeat;
+}
+
+header{
+    background-color: #ffffff;
+    height: 72px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+}
+
+.header-main{
+    margin: 0 auto;
+    max-width: 1180px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+#logo{
+    height: 72px;
+    margin-right: 32px;
+}
+
+#add{
+    margin-top: 6px;
+}
+
+.deposer-une-annonce{
+    color: #ffffff;
+}
+
+.header-center a{
+    font-size: 14px;
+    font-weight: 700;
+}
+
+
+.header-left{
+    display: flex;
+}
+
+.header-center-bg_c{
+    width: 224px;
+    height: 46px;
+    background: #85B940;
+    border-radius: 7px;
+    justify-content: center;
+    margin: auto 0;
+    margin-right: 19px;
+}
+/* header coté droit */
+
+.header-right{
+    display: flex;
+}
+
+.header-center{
+    display: flex;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    color: black; 
+}
+
+header a:hover{
+    color: #C0562A;
+    font-weight: 700;
+}
+
+.header-right-center{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-right: 33px;
+}
+
+.header-add{
+    width: 224px;
+    height: 46px;
+    background: #85B940;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto 0;
+}
+
+.icone-add{
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+.add{
+    color: #FFFFFF;
+}
+
+
+/* Balise h1 */
+
+h1{
+    font-size: 27px;
+    font-weight: 700;
+    text-align: center;
+    margin: 48px 0;
+    color: #A8FF35;
+    background-color: rgba(0, 0, 0, 0.5);;    
+    animation-name: example;
+    animation-duration: 10s;
+}
+
+  
+  @keyframes example {
+    0%   {color: red;}
+    25%  {color: yellow;}
+    50%  {color: blue;}
+    100% {color: green;}
+  }
+
+/* Premiere partie de la section un */
+
+.container-section-un{
+    max-width: 1180px;
+    height: 233px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+    margin: 0 auto;
+}
+
+.label-un{
+    border: 2px solid  #85B940;
+    width: 24px;
+    height: 23px;
+    display: inline-block;
+    margin: 4px;
+    vertical-align: middle;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+label div{
+    width: 18px;
+    height: 17px;
+    background-color:#ffffff;
+    border-radius: 50%;
+    ransition: all 0.3 ease;
+}
+
+.class-input:checked+label div{
+    background-color: #85B940;
+    ransition: all 0.3 ease;
+}
+
+.class-input{
+    display: none;
+}
+
+.div-forulaire{
+    display: flex;
+    padding: 28px 0 0 50px;
+}
+
+.span-label{
+    margin-right: 7px;
+}
+
+.div-formulaire_ODF{
+    margin-right: 60px;
+}
+
+.div-formulaire_O{
+    margin-left: 50px;
+}
+
+#faire-un-don{
+    color: #ED3B3B;
+}
+
+/* Deuxieme ligne de la de la premiere section */
+
+.box-un{
+    position: relative;
+}
+
+.select-categories{
+    position: relative;
+    background-color: #F4F6F7;
+    width: 216px;
+    height: 44px;
+    padding: 0 25px 0 55px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.25);
+    border-radius: 5px 0px 0px 5px;
+    /* appearance: none; */
+}
+
+option{
+    position: relative;
+    left: 100px;
+}
+
+/* select-categories::after{
+    content: '\25BC'
+    border-width: 10px;
+    border-style: solid;
+    border-color: transparent;
+    border-left-color: #010911;
+} */
+
+.option-categories{
+    display: flex;
+}
+
+#bulleted{
+    position: relative;
+    bottom: 40px;
+    left: 10px;
+}
+
+/* #chevron{
+    position: relative;
+    bottom: 48px;
+    left: 150px;
+} */
+
+.container-categorie{
+    position: relative;
+    right: 46px;
+    bottom: 5px;
+}
+
+.box-deux{
+    position: relative;
+    width: 1px;
+    height: 44px;
+    background: #8197B3;
+    right: 46px;
+    bottom: 5px;
+}
+
+/*        search bar and position bar       */
+
+*{box-sizing: border-box;
+}
+
+.search-bar{
+    position: relative;
+    right: 46px;
+    bottom: 5px;
+}
+
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 0px solid grey;
+  width: 292px;
+  height: 45px;
+  background: #F4F6F7;
+  box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.25);
+  border-radius: 0px 5px 5px 0px;
+}
+
+form.example button {
+  float: left;
+  width: 50px;
+  height: 45px;
+  color: #A8B4C0;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+  background: #F4F6F7;
+}
+
+form.example button:hover {
+  background: #0b7dda;
+}
+
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/*             place-marker         */
+
+.place-marker{
+    margin-left: 55px;
+    position: relative;
+    right: 46px;
+    bottom: 5px;
+}
+
+.box-trois_quatre{
+
+}
+
+.box-quatre{
+    width: 403px;
+    margin-right: 0;
+}
+
+/* conteneur niveau deux de la section deux */
+
+.container-section-deux{
+    display: flex;
+    justify-content: center;
+    margin-top: 17px;
+}
+
+/* niveau trois de la section deux */
+
+/* bouton prix */
+
+.container-bouton-prix_on-off{
+    display: flex;
+}
+
+.bouton-prix{
+    position: relative;
+    box-sizing: border-box;
+    width: 65px;
+    height: 36px;
+    background: #FFFFFF;
+    border: 2px solid #A8B4C0;
+    border-radius: 16px;
+    text-align: center;
+    padding-top: 5px;
+    bottom: 33px;
+    left: 66px;
+}
+
+.bouton-prix:hover{
+    background-color: #336699;
+    /* color: rgb(176, 20, 20); */
+}
+
+/* niveau 4 de la section deux */
+
+.ul-top-categorie li{
+    margin-right: 10px;
+}
+
+
+.bouton-on_off{
+    position: relative;
+    left: 88px; 
+    bottom: 10px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.switch{
+    position: relative;
+    display: inline-block;
+    width: 47px;
+    height: 30px;
+    margin: 0 10px;
+}
+
+.slider{
+    position: absolute;
+    cursor:pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    transition: .4s;
+    border-radius: 34px;
+}
+
+.switch input{
+    display: none;
+}
+
+.slider::before{
+    position: absolute;
+    content: "";
+    height: 30px;
+    width: 30px;
+    left: 1px;
+    bottom: px;
+    background-color: white;
+    transition: 0.4s;
+    border-radius: 50px;
+    border: 1px solid rgba(1, 8, 16, 0.4);
+}
+
+input:checked + .slider{
+    background-color: #336699;
+}
+
+input:checked + .slider::before{
+    transform: translate(17px);
+}
+
+/* ......................... */
+
+.conteneur-bouton-on-off{
+    position: relative;
+    
+}
+
+.conteneur-bouton_recherche a{
+    position: relative;
+    width: 236px;
+    height: 45px;
+    background: #85B940;
+    border-radius: 8px;
+    color: white;
+    text-align: center;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 53px;
+}
+
+.voir-egalement{
+    position: relative;
+    display: flex;
+    bottom: 57px;
+    padding-left: 125px;
+}
+
+/*                   2em section                */
+
+.titre-categories{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    color: #336699; 
+    padding-top: 40px;
+    margin-bottom: 40px;
+}
+
+.section_deux{
+    width: 100%;
+    height: 877px;  
+    background: #FFFFFF;
+    margin-top: 100px;
+}
+
+/* .main-carousel{
+    isplay: block;
+} */
+
+.container-section_deux{
+    max-width: 1180px;
+    margin: 0 auto;
+    margin-bottom: 98px;
+}
+
+/* 1er bloc conteneur section deux*/
+
+.ul-top-categorie{
+    isplay: flex;
+    justify-content: space-between;
+}
+
+.text-top-categorie{
+    position: relative;
+    bottom: 27px;
+    text-align: center;
+    background: #00000080;
+    border-radius: 0px 0px 7px 7px;
+    color: white;
+}
+
+/* 2em bloc conteneur section deux*/
+
+.titre-rejoindre-communaute{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    max-width: 1100px;
+    position: relative;
+    bottom: 60px;
+}
+
+.titre-bleu-rejoindre-communaute{
+    color: #336699
+    ;
+}
+
+.image-communaute {
+    max-width: 100%;
+    height: 229px;
+}
+
+.rectangle-blanc{
+    position: relative;
+    max-width: 489px;
+    height: 221px;
+    background: #FEF0E9;
+    border-radius: 8px;
+    bottom: 230px;
+    left: 4px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: justify;
+    padding: 32px 64px 39px 38px;
+}
+
+.rectangle-blanc-bold{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 23px;
+    text-align: justify;
+}
+
+.rectangle-blanc_container-text{
+    adding: 32px 64px 39px 38px;
+    width: 386px;
+    height: 103px;
+}
+
+/* Bouton deposer une annonce */
+
+#Déposer-une-annonce{
+    width: 235px;
+    height: 44px;
+    background: #85B940;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 24px;
+}
+
+/* Pour appliquer des marges auto */
+
+.container-texte-passionner{
+    margin: 0 auto;
+    max-width: 1180px;
+}
+
+/* Conteneur du bloc communauté */
+
+.container-communaute{
+    margin-bottom: 80px;
+    margin: 0 auto;
+    max-width: 1180px;
+}
+
+.text-avec_assigame{
+    position: relative;
+    text-align: justify;
+    bottom: 152px;
+    max-width: 1180px;
+    margin: 0 auto;
+}
+
+/* troisieme section */
+
+.section-trois{
+
+}
+
+.container-section_trois{
+    max-width: 1180px;
+    height: 567px;
+    background: rgba(51, 102, 153, 0.15);
+    box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.25);
+    border-radius: 0px;
+    margin: 0 auto;
+}
+
+#avis{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px; 
+    color: #336699;
+    text-align: center;
+    padding: 32px 0 17px 0;
+}
+
+.bouton-donner-avis{
+    position: relative;
+    max-width: 236px;
+    height: 37px;
+    background: #85B940;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 75%;
+    bottom: 40px;
+}
+
+.text-avis-pertinant{
+    margin-left:60px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    position: relative;
+    bottom: 48px;
+}
+
+/* les commentaires  */
+
+.bock-bul_commentaire{
+    position: relative;
+    margin: 22px  0 0 60px;
+}
+
+.bul{
+    width: 418px;
+    min-height: 73px;
+    left: 207px;
+    top: 1641px;
+    
+    background: #FAFAFA;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 25px 25px 25px 0px;
+}
+
+.bul-commentaire{
+    position: relative;
+    max-width: 364px;
+    height: 70px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    text-align: justify;
+    bottom: 67px;
+    left: 30px;
+}
+
+.nom-bul{
+    position: relative;
+    left: 70px;
+    bottom: 59px;
+    height: 45px;
+}
+
+.nom{
+    width: 119px;
+    height: 19px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;   
+    color: #336699;
+    margin-bottom: 10px;
+}
+
+/* deuxieme bul commentaire */
+
+.bul-deux{
+    max-width: 279px;
+    height: 73px;
+    background: #FAFAFA;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 25px 25px 25px 0px;
+}
+
+.bul-commentaire-deux{
+    position: relative;
+    max-width: 215px;
+    height: 70px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: justify;
+    bottom: 67px;
+    left: 30px;
+}
+
+/* Troisieme bul commentaire */
+
+.bul-commentaire-trois{
+    position: relative;
+    max-width: 314px;
+    height: 70px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    text-align: justify;
+    text-align: justify;
+    bottom: 67px;
+    left: 30px;
+}
+
+.bul-trois{
+    max-width: 378px;
+    height: 73px;
+    background: #FAFAFA;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 25px 25px 25px 0px;
+}
+
+/* grand-bock-bul_commentaire pour deplacer le contenu vers le haut */
+
+.grand-bock-bul_commentaire{
+    position: relative;
+    bottom: 48px;
+}
+
+/* grand conteneur pour le flex */
+
+#container-bock-bul_commentaire{
+    display: flex;
+}
+
+#img-avis{
+    position: relative;
+    left: 100px;
+    bottom: 60px;
+    max-width: 553px;
+}
+
+.image-avis{
+    width: 100%;
+}
+
+/* bouton lire tous les avis */
+
+#lire-avis{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    bottom: 39px;
+    
+}
+
+#lien-avis{
+    position: relative;
+    width: 162px;
+    height: 23px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    color: #ED3B3B;
+    top: 21px;
+}
+
+/*      4em section       */
+
+.contenaire-nos_partenaires{
+    max-width: 1180px;
+    height: 361px;
+    left: 0px;
+    top: 2044px;
+    margin: 0 auto;
+    ackground: #FFFFFF;
+    ox-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.25);
+}
+
+.title-nos-partenaires {
+    width: 202px;
+    height: 35px;
+    font-weight: 600;
+    font-size: 26px;
+    color: #336699;
+    margin: 0 auto;
+    padding: 64px 0 57px 0;
+    position: relative;
+    bottom: 15px;
+}
+
+.logo-partenaires{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1180px;
+    margin: 0 auto;
+}
+
+.img-partenaire{
+    max-width: 100%;
+}
+
+#logo-cercle_or{
+    position: relative;
+    bottom: 20px;
+}
+
+/*           5em  section          */
+
+.container-localisation{
+    width: 100%;
+    height: 627px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.25);
+    margin-bottom: 60px;
+}
+
+#title-localisation{
+    width: 151px;
+    height: 35px;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 35px;
+    color: #336699;
+    padding: 57px 0 54px 0;
+    margin: 0 auto;
+}
+
+.carte-maps{
+    position: relative;
+    top: 22px;
+    width: 1000px;
+    height: 430px;
+    margin: 0 auto;
+}
+
+/*            6em section           */
+
+.container-contactez-nous{
+    max-width: 753px;
+    height: 508px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+    margin: 0 auto;
+    padding: 0 28px;
+    margin-bottom: 67px;
+}
+
+.contactez-nous-title_un{
+    width: 229px;
+    height: 23px;
+    font-weight: 600;
+    font-size: 17px;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+.contactez-nous-title_deux{
+    width: 271px;
+    height: 48px;
+    font-weight: 700;
+    font-size: 35px;
+    display: flex;
+    align-items: center; 
+    color: #336699;
+    position: relative;
+    top: 23px;
+    margin: 0 auto;
+}
+
+          /*          formulaire         */
+
+          
+
+.container-formulaire{
+    position: relative;
+    top: 59px;
+}
+
+.form-nom_mail{
+    display: flex;
+    justify-content: space-between;
+}
+
+.field{
+    position: relative;
+    height: 80px;
+    width: 305px;
+    padding: 16px 0 8px 0;
+    margin-bottom: 15px;
+}
+
+.field-trois{
+    position: relative;
+    height: 130px;
+    width: 100%;
+    padding: 16px 0 57px 0;
+}
+
+.field-label{
+    /* position relative */
+    position: relative;
+    line-height: 16px;
+    font-weight: 600;
+    font-size: 15px;
+    color: #A8B4C0;
+    display: block;
+
+    /* chercher les transform aussi . Mais en attendent j'ai qu'il a ramener le label en bas */
+    transform: translateY(24px);
+}
+
+.field-input{
+    /* position relative */
+    position: relative;
+    display: block;
+    width: 100%;
+    padding: 8px 0;
+    line-height: 16px;
+    background: transparent;
+    border: none;
+    outline: none;
+}
+
+.field::after{
+    /* faire des recherches sur les pseudo elements */
+
+    /* a chercher ( content) */
+
+    content: '';  
+    height: 2px;
+    width: 303px;
+    /* les positinnement aussi a chercher */
+    position: absolute;
+
+    /* on peut ne pas mettre de bottom cela fonctionne aussi, la je veux juste apprendre. 
+    
+    essayer aussi de voir comment je peux je peut faire meme chose via (border) */
+    bottom: 30px;
+    background-color: #85B940;
+    ;
+}
+
+.field-trois::after{
+    /* faire des recherches sur les pseudo elements */
+
+    /* a chercher ( content) */
+
+    content: '';  
+    height: 2px;
+    width: 100%;
+    /* les positinnement aussi a chercher */
+    position: absolute;
+
+    /* on peut ne pas mettre de bottom cela fonctionne aussi, la je veux juste apprendre. 
+    
+    essayer aussi de voir comment je peux je peut faire meme chose via (border) */
+    bottom: 30px;
+    background-color: #85B940;
+    ;
+}
+
+placeholder{
+    /* position relative */
+    position: relative;
+    line-height: 16px;
+    font-weight: 600;
+    font-size: 15px;
+    color: #A8B4C0;
+    display: block;
+
+    /* chercher les transform aussi . Mais en attendent j'ai qu'il a ramener le label en bas */
+    transform: translateY(24px);
+}
+
+.bouton-envoyer{
+    position: relative;
+    width: 154px;
+    height: 46px;
+    background: #85B940;
+    border-radius: 6px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    top: 79px;
+}
+
+
+/*          7em section           */
+
+section-sept{
+    height: 432px;
+    min-width: 100%;
+    background-color: #336699;
+}
+
+.bloc-footer{
+    width: 100%;
+    height: 432px;
+    background-color: #336699;
+    position: absolute;
+}
+
+.bloc-footer_global-un{
+    padding: 23px 0px 19px 0px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1180px;
+    height: 350px;
+    margin: 0 auto;
+}
+
+/*       1ER BLOCK         */
+
+/* 1er sous bloc a propos */
+
+.bloc-footer_un_un{
+    width: 241px;
+    height: 110px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: justify;
+    color: #FFFFFF;
+    margin-bottom: 40px;
+}
+
+.title-footer{
+    width: 241px;
+    height: 110px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    color: #FFFFFF;
+}
+
+
+/*            2em sous bloc    a propos       */
+
+.bloc-footer_un_deux{
+    width: 236px;
+    height: 163px;
+    color: #FFFFFF;
+}
+
+hr{
+    background-color: white;
+}
+
+#footer-logo{
+    display: flex;
+    margin-top: 20px;
+}
+
+.footer-ecobank{
+    position: relative;
+    bottom: 15px;
+    left: 30px;
+}
+
+/*         deuxieme bloc(grand)            */
+
+.bloc-footer_deux{
+    position: relative;
+    bottom: 3px;
+    display: block;
+    
+}
+
+.bloc-footer_deux_detail{
+    width: 283px;
+    height: 265px;
+    font-weight: 600;
+    font-size: 14px;
+    text-align: justify;
+    color: #FFFFFF;
+}
+
+/*          3em bloc (grand)           */
+
+
+.bloc-footer_trois{
+    width: 283px;
+    height: 281px;
+    position: relative;
+    bottom: 3px;
+    display: block;
+}
+
+/*          4em bloc (grand)           */
+
+.bloc-footer_quatre{
+    position: relative;
+    bottom: 3px;
+    display: block;
+    height: 200px;
+}
+
+/*             2em partie footer         */
+
+.bloc-footer_global-deux{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    margin-top: 15px;
+    max-width: 1180px;
+    align-items: center;
+    padding: 0;
+    color: white;
+}
+
+.bloc-footer_global-deux_un{
+    position: relative;
+}
+
+.bloc-footer_global-deux_deux{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.Retrouvez-nous-sur{
+    margin-top: 15px;
+}
+
+.dernier-hr{
+    max-width: 1180px;
+    margin: 0 auto;
+}
+
+/* styliser less liens (a) */
+
+.bloc-footer_global-un a{
+    color: white;
+}
+
+
+
+/*         partie responsivité      */
+
+@media screen and (max-width: 1185px ) {
+    .header-main{
+        padding: 0 21px;
+    }
+
+}
+
+@media screen and (max-width: 1162px ) {
+    #img-avis {
+        left: 100px;
+        top: 43px;
+        max-width: 260px;
+    }
+
+    .carte-maps{
+        max-width: 500px;
+    }
+}
+
+@media screen and (max-width: 1036px ) {
+    .select-categories{
+        display: none;
+    }
+
+    .select-categories, #bulleted, .bouton-prix, .voir-egalement, .voir-egalement, .bouton-on_off, .box-deux, .bloc-footer_quatre{
+        display: none;
+    }
+
+    .conteneur-bouton_recherche a {
+        /* bottom: 3px; */
+        top: 45px;
+    }
+
+    .container-section-deux {
+        position: relative;
+        top: 20px;
+    }
+
+    .header-right-center, .bloc-footer_trois, .bouton-donner-avis{
+        isplay: none;
+    }
+    
+}
+
+
+@media screen and (max-width: 866px ) {
+    .image-avis{
+        display: none;
+    }
+    
+    /* .logo-partenaires{
+        flex-wrap: wrap;
+    } */
+    
+    #logo-ecobank{
+        display: none;
+    }
+    
+    
+}
+
+
+@media screen and (max-width: 836px ) {
+    .select-categories, #bulleted, .bouton-prix, .voir-egalement, .voir-egalement, .bouton-on_off, .box-deux{
+        display: none;
+    }
+
+    .conteneur-bouton_recherche a{
+        top: 50px;
+    }
+
+    .container-section-deux {
+        display: flex;
+        justify-content: center;
+        margin-top: 17px;
+        position: relative;
+        top: 24px;
+        left: 0px;
+    }
+}
+
+
+@media screen and (max-width: 821px ) {
+    #logo{
+        width: 100px;
+        height: 60px;
+        
+    }
+
+    header{
+        height: 60px;
+        padding: 0 10%;
+    }
+
+    .header-right-center{
+        display: none;
+    }
+
+    .header-right-center img{
+        display: none;
+    }
+
+    .header-add{
+        
+    }
+
+    h1{
+        margin: 10px 0;
+    }
+}
+
+@media screen and (max-width: 739px ) {
+    form.example button{
+        width: 34px;
+    }
+
+    .container-section-deux {
+        display: block;
+        top: 24px;
+        left: 0;
+        position: relative;
+        margin-left: 236px;
+    }
+
+    .search-bar {
+        bottom: 24px;
+    }
+
+    .place-marker {
+        right: 100px;
+    }
+
+}
+
+@media screen and (max-width: 631px ) {
+    .div-forulaire{
+        display: none;
+    }
+
+    .container-section-deux{
+        padding-top: 31px;
+    }
+}
+
+@media screen and (max-width: 619px ) {
+    .search-bar button, .example button{
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 619px ) {
+    .container-section_trois{
+        margin-top: 61px;
+    }
+
+    .text-avec_assigame{
+        bottom: 185px;   
+    }
+
+    .bul {
+        width: 278px;
+    }
+
+    .bul-commentaire {
+        width: 210px;
+        font-size: 12px;
+        bottom: 70px;
+    }
+
+    .bul-commentaire-trois {
+        width: 210px;
+        font-size: 12px;
+        bottom: 70px;
+    }
+
+    .carte-maps {
+        max-width: 314px;
+    }
+
+    .Retrouvez-nous-sur {
+        display: none;
+    }
+
+    .Togocom, .text-avis-pertinant, .bloc-footer_deux{
+        display: none;
+    }
+
+    #avis{
+        margin-top: 144px;
+    }
+
+    .bloc-footer_global-un{
+        padding-left: 125px;
+    }
+}
+
+@media screen and (max-width: 531px) {
+    .container-section-deux{
+        margin-left: 151px;
+    }
+
+}
+
+
+@media screen and (max-width: 530px) {
+    margin-left: 10px;
+}
+
+@media screen and (max-width: 429px) {
+    margin-left: 16px;
+    margin-top: 5px;
+
+}
+
+
+
+@media screen and (max-width: 426px ) {
+    header{
+        max-height: 60px;
+        padding: 0 6%;
+        width: 440px;
+    }
+
+    .header-add{
+        position: relative;
+        left: 17px;
+    }
+
+    h1{position: relative;
+        left: 11px;
+    }
+
+    .search-bar button{
+        display: block;
+    }
+
+    form.example input {
+        width: 258px;
+    }
+
+    .div-forulaire{
+        display: none;
+    }
+
+    .div-forulaire, .place-marker {
+        display: none;
+    }
+
+    .bouton-prix, 
+    element.style {
+    }
+    #img-avis img{
+        display: none;
+    }
+
+    .voir-egalement, .conteneur-bouton_recherche a, .bouton-on_off{
+        display: none;
+    }
+
+    .container-section-deux {
+        margin-left: 1px;
+        display: block;
+        top: 108px;
+    }
+    
+
+    .select-categories{
+        margin: 22px 69px;
+        width: 377px;
+        height: 45px;
+    }
+
+    .search-bar{
+        left: 22px;
+        bottom: 83px;
+    }
+
+    .place-marker{
+        right: 12px;
+        bottom: 50px;
+    }
+
+    .section_deux {
+        width: 100%;
+        height: 911px;
+        margin-top: 31px;
+    }
+
+    .titre-categories {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 26px;
+        color: #336699;
+        padding-top: 11px;
+        text-align: center;
+        margin-bottom: 14px;
+    }
+
+    .rectangle-blanc {
+        position: relative;
+        max-width: 440px;
+        height: 243px;
+        bottom: 245px;
+        left: 0px;
+        line-height: 20px;
+        text-align: justify;
+        padding: 32px 64px 39px 38px;}
+
+        #Déposer-une-annonce {
+            width: 235px;
+            height: 44px;
+            margin-top: 28px;
+            margin-left: 57px;
+        }
+
+        .text-avec_assigame {
+            position: relative;
+            text-align: justify;
+            bottom: 216px;
+            padding: 0 18px;
+            max-width: 390px;
+        }
+
+        .section-trois {
+            margin-top: 202px;
+        }
+
+        .section_deux {
+            height: 782px;
+            width: 440px;
+        }
+
+        #avis {
+            padding: 9px 0 17px 0;
+            margin-bottom: 22px;
+        }
+
+        .bul {
+            width: 278px;
+        }
+
+        .bul-commentaire {
+            width: 210px;
+            font-size: 12px;
+            bottom: 70px;
+        }
+
+        .bul-trois{
+            width: 278px;
+        }
+
+        .bul-commentaire-trois {
+            width: 210px;
+            font-size: 12px;
+            bottom: 70px;
+        }
+
+        .container-section_trois{
+            height: 532px;
+            width: 440px;
+        }
+
+        #lien-avis {
+            position: relative;
+            top: 12px;
+        }
+
+        .title-nos-partenaires {
+            padding: 35px 0 70px 0;
+            margin-left: 106px;
+            max-width: 400px;
+        }
+
+        .none{display: none;}
+
+        .logo-partenaires{
+            display: block;
+            max-width: 400px;
+        }
+
+        #logo-cercle_or {
+            margin-left: 32px;
+            position: relative;
+            bottom: 20px;
+        }
+
+        .image-deux{
+            position: relative;
+            bottom: 43px;
+            left: 35px;
+        }
+
+        .contenaire-nos_partenaires {
+            width: 100%;
+            height: 290px;
+        }
+
+        #title-localisation {
+            padding: 23px 0 33px 0;
+            max-width: 400px;
+        }
+
+        .carte-maps{
+            max-width: 350px;
+        }
+
+        .container-contactez-nous {
+            width: 376px;
+            height: 508px;
+        }
+
+        .bloc-footer_un_trois_quatre, .bloc-footer_global-deux_un {
+            display: none;
+        }
+
+        .bloc-footer_global-deux_un{
+            font-size: 10px;
+        }
+
+        .bloc-footer_global-deux_deux div{
+            margin-left: 69px;
+        }
+
+        .bloc-footer_deux {
+            display: block;
+            right: 38px;
+        }
+
+        .Retrouvez-nous-sur {
+            margin: 0 45px;
+            margin-top: 15px;
+        }
+
+        .dernier-hr {
+            max-width: 423px;
+            margin: 0 auto;
+        }
+
+        .bouton-prix{
+            display: none;
+        }
+
+        .image-Gozem{
+            position: relative;
+            bottom: 44px;
+        }
+
+        .grand-bock-bul_commentaire {
+            position: relative;
+            bottom: 48px;
+            right: 38px;
+        }
+
+        .bul-commentaire-deux{
+            
+        }
+
+        .container-section-un {
+            max-width: 372px;
+            margin-left: 34px;
+            height: 166px;
+        }
+
+        .container-localisation{
+            width: 440px;
+        }
+
+        .bloc-footer_global-un{
+            max-width: 400px;
+        }
+
+        #logo{
+            position: relative;
+            right: 24px;
+            margin-right: 34px;
+        }
+
+        .bloc-footer{
+            width: 440px;
+        }
+
+        .field::after {
+            content: '';
+            height: 2px;
+            width: 159px;
+            position: absolute;
+            bottom: 30px;
+            background-color: #85B940;
+        }
+}
+
+
+@media screen and (max-width: 376px ) {
+    .header-add {
+        width: 174px;
+    }
+
+    .bloc-footer_deux {
+        right: 63px;
+    }
+
+    h1{
+        left: 29px;
+    }
+
+    .container-section-un{
+        width: 372px;
+    }
+
+    titre-rejoindre-communaute{
+        left: 10px;
+    }
+
+    .container-contactez-nous{
+        margin-left: 31px;
+    }
+
+    #logo-cercle_or{
+        margin-left: 41px;
+    }
+}
+
+
+@media screen and (max-width: 321px ) {
+    .header-add{
+        display: none;
+    }
+
+    #logo{
+        margin-right: 34px;
+        left: 85px;
+        width: 161px;
+    }
+
+    h1{
+        left: 52px;
+    }
+
+    .container-section-un, #Déposer-une-annonce, .container-section_trois, .title-nos-partenaires, .logo-partenaires{
+        display: none;
+    }
+
+    .container-localisation {
+        max-width: 453px;
+        position: relative;
+        bottom: 100px;
+    }
+
+    .carte-maps{
+        width: 300px;
+    }
+
+    .bloc-footer_deux {
+        right: 63px;
+        font-size: 10px;
+    }
+
+    .bloc-footer_global-deux_deux div{
+        margin-left: 47px;
+    }
+
+    .container-contactez-nous {
+        width: 313px;
+        margin-left: 65px;
+    }
+
+    .field::after {
+        content: '';
+        height: 2px;
+        width: 127px;
+        position: absolute;
+        bottom: 30px;
+        background-color: #85B940;
+    }
+    
+}
